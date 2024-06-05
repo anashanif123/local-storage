@@ -1,0 +1,216 @@
+@font-face {
+  font-family: dancing;
+  src: url(FONT/Pacifico-Regular.ttf);
+}
+body {
+  font-family: 'dancing', sans-serif;
+  background-color: #e7e7e7;
+}
+.wrapper {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  margin: 3% auto;
+  box-shadow: 2px 18px 70px 0px #9D9D9D;
+  overflow: hidden;
+}
+
+.login-text {
+  width: 800px;
+  height:450px;
+  background: linear-gradient(to left, #ab68ca, #de67a3); 
+  position: absolute;
+  top: -300px;
+  box-sizing: border-box;
+  padding: 6%;
+  transition: all 0.5s ease-in-out;
+  z-index: 11;
+}
+
+.text {
+  margin-left: 20px;
+  color: #fff;
+  display: none;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.3s;
+
+  a, a:visited {
+      font-size: 36px;
+      color: #fff;
+      text-decoration: none;  
+      font-weight: bold;
+      display: block;
+  }
+
+  hr {
+      width: 10%;
+      float: left;
+      background-color: #fff;
+      font-size: 16px;
+  }
+
+  input {
+      margin-top: 30px;
+      height: 40px;
+      width: 300px;
+      border-radius: 2px;
+      border: none;
+      background-color: #444;
+      opacity: 0.6;
+      outline: none;
+      color: #fff;
+      padding-left: 10px;
+  }
+
+  input[type=text] {
+      margin-top: 60px;
+  }
+
+  button {
+      margin-top: 60px;
+      height: 40px;
+      width: 140px;
+      outline: none;
+  }
+
+  .login-btn {
+      background: #fff;
+      border: none;
+      border-radius: 2px;
+      color: #696a86;
+      margin-left: 100px;
+  }
+
+  .signup-btn {
+      background: transparent;
+      border: 2px solid #fff;;
+      border-radius: 2px;
+      color: #fff;
+      margin-left: 30px;
+  }
+}
+
+.cta {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #696a86;
+  border: 2px solid #fff;
+  position: absolute;
+  bottom: -30px;
+  left: 370px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  z-index: 11;
+}
+
+.call-text {
+  background-color: #fff;
+  width: 800px;
+  height: 450px;
+  position: absolute;
+  bottom: 0;
+  padding: 10%;
+  box-sizing: border-box;
+  text-align: center;
+
+  h1 {
+      font-size: 42px;
+      margin-top: 10%;
+      color: #696a86;
+
+      span {
+          color: #333;
+          font-weight: bolder;
+          
+      }
+  }
+
+  button {
+      height: 40px;
+      width: 180px;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to left, #ab68ca, #de67a3); 
+      color: #fff;
+      font-weight: bolder;
+      margin-top: 30px;
+      cursor: pointer;
+      outline: none;
+  }
+}
+
+.show-hide {
+  display: block;
+}
+
+.expand {
+  transform: translateY(300px);
+}
+#home_container {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the h1 */
+#home_container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Style for the user email */
+#user_email {
+  font-style: italic;
+}
+
+/* Style for the logout button */
+#logout {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the textarea */
+#note {
+  width: 100%;
+  max-width: 900px;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style for the submit button */
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the list */
+#list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Style for list items */
+#list li {
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
